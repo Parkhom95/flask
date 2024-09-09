@@ -111,7 +111,7 @@
 </section>
 
 <!-- Horizontal Card with image  and text right -->
-{% for count in range(1, 10) %}  <!-- Предположим, что у нас не более 10 featurette -->
+{% for count in range(1, 5) %}  <!-- Предположим, что у нас не более 10 featurette -->
     {% set feature_key = 'featurette' ~ count %}
     {% if json_data.get(feature_key) %}
         <section id="featurette{{ count }}" class="container mt-4">
